@@ -1,0 +1,70 @@
+.wrapper {
+    max-width: 850px;
+    margin: 0 auto;
+    padding: 0 20px;
+    }
+
+    body {
+    background: linear-gradient(222deg, rgba(174,238,214,1) 0%, rgba(148,187,233,1) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    }
+
+.mainCard {
+    background: linear-gradient(222deg, rgba(148,187,233,1) 0%, rgba(148,187,233,0.3477766106442577) 100%);
+    max-width: 70%;
+    height: 550px;
+    padding: 50px;
+    border-radius: 27px;
+    box-shadow: 6px 6px 34px 1px rgba(0,0,0,0.45);
+    margin: 90px 0 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+
+h1 {
+    font-family: Urbanist;
+    font-size: 2rem;
+    }
+
+.adviceSection {
+    width: 80%;
+    }
+
+.adviceSection:before {
+    font-size: 50px;
+    content:"❝"
+    }
+
+.adviceSection:after {
+    font-size: 50px;
+    content:"❞"
+    }
+
+h2 {
+    font-family: Shadows Into Light Two;
+    }
+
+.adviceButton {
+    font-family: Urbanist;
+    font-weight: 900;
+    font-size: 18px;
+    height: 50px;
+    width: 500px;
+    border: none;
+    background-color: #94bbe9;
+    text-transform: uppercase; 
+    cursor: pointer;
+    }
+
+.adviceButton:hover {
+    color: white;
+    background-color: black;
+    }
+
+.junoTag {
+    font-family: Urbanist;
+    }
